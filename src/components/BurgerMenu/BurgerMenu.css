@@ -1,0 +1,12 @@
+.burgerContainer {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.8rem;
+    z-index: 5;
+}
+
+@media (min-width: 720px) {
+    .burgerContainer {
+        display: none;
+    }
+}
