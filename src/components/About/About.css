@@ -1,0 +1,29 @@
+.aboutContainer{
+    background-color: #343333;
+}
+
+.aboutTitle {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.aboutBio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutBio div{
+    width: 90%;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.aboutImg img{
+    max-width: 70vw
+}
