@@ -8,8 +8,8 @@
 
 .brandLogo{
     position: fixed;
-    top: 0.5rem;
     left: 1rem;
+    top: 0.8rem;
 }
 
 .navLinks {
@@ -28,6 +28,7 @@
 
 .navLinks li {
     font-size: 1.8rem;
+    cursor: pointer;
 }
 
 .toggleOpen {

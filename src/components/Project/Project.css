@@ -1,9 +1,12 @@
 .projectCard {
     background-color: black;
-    width: 300px;
-    border-radius: 0.5rem;
-    padding: 1rem;
+    width: 500px;
+    border-radius: 1rem;
     margin: 1rem;
+}
+
+.projectCard img{
+    width: 100%;
 }
 
 .projectCard__links {
@@ -16,4 +19,8 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+
+@media (min-width: 990px){
+    /* HOVER CARD PARA MOSTRAR LINKS */
 }

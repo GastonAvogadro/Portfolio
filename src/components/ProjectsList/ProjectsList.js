@@ -5,35 +5,31 @@ const ProjectsList = () => {
     const projects = [
         {
             name: 'Leather Life',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales',
-            image: 'https://picsum.photos/300',
-            tech: 'HTML CSS REACT BOOTSTRAP',
-            linkSite: 'url',
-            linkRepo: 'url',
+            tech: ['React', 'Bootstrap', 'Firebase'],
+            image: 'https://i.ibb.co/NVj0bqJ/leather.png',
+            linkSite: 'https://leather-life.netlify.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/E-Commerce-React',
         },
         {
             name: 'Astro Coaching',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales',
-            image: 'https://picsum.photos/300',
-            tech: 'HTML CSS REACT BOOTSTRAP',
-            linkSite: 'url',
-            linkRepo: 'url',
+            tech: ['HTML', 'SASS', 'Bootstrap'],
+            image: 'https://i.ibb.co/z8zgYG8/astro.png',
+            linkSite: 'https://astrocoaching.netlify.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/AstroCoaching-HTML-CSS',
         },
         {
             name: 'Weather App',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales',
-            image: 'https://picsum.photos/300',
-            tech: 'HTML CSS REACT BOOTSTRAP',
-            linkSite: 'url',
-            linkRepo: 'url',
+            tech: ['HTML', 'SASS','JavaScript'],
+            image: 'https://i.ibb.co/wLVx4RC/weather.png',
+            linkSite: 'https://weatherapp-vanillajs.netlify.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/WeatherApp-JavaScript-Vanilla',
         },
         {
             name: 'Portfolio',
-            description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Consectetur sodales',
-            image: 'https://picsum.photos/300',
-            tech: 'HTML CSS REACT BOOTSTRAP',
-            linkSite: 'url',
-            linkRepo: 'url',
+            tech: ['React', 'CSS'],
+            image: 'https://picsum.photos/300/169',
+            linkSite: '',
+            linkRepo: '',
         },
     ];
 
@@ -43,9 +39,8 @@ const ProjectsList = () => {
                 <Project
                     key={project.name}
                     name={project.name}
-                    description={project.description}
-                    image={project.image}
                     tech={project.tech}
+                    image={project.image}
                     linkSite={project.linkSite}
                     linkRepo={project.linkRepo}
                 />

@@ -1,32 +1,28 @@
 import { AiOutlineLink, AiOutlineGithub } from 'react-icons/ai';
-import './Project.css'
+import ProjectTech from '../ProjectTech/ProjectTech';
+import './Project.css';
 
-const Project = ({name, description, image, tech, linkSite, linkRepo}) => {
+const Project = ({ name, tech, image, linkSite, linkRepo }) => {
     return (
         <div className="projectCard" key={name}>
             <div>
-                <img src="https://picsum.photos/300" alt={name} />
+                <img src={image} alt={name} />
             </div>
             <div className="projectCard__links">
                 <div>
-                    <a href="www.google.com.ar">
+                    <a href={linkSite}>
                         <AiOutlineLink size={30} />
                         <p>Link</p>
                     </a>
                 </div>
                 <div>
-                    <a href="www.google.com.ar">
+                    <a href={linkRepo}>
                         <AiOutlineGithub size={30} />
                         <p>Github</p>
                     </a>
                 </div>
             </div>
-            <div className="projectCard__tech">
-                <p>{tech}</p>
-            </div>
-            <div className="projectCard__description">
-                <p>{description}</p>
-            </div>
+            <ProjectTech tech={tech} />
         </div>
     );
 };

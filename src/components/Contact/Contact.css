@@ -1,0 +1,22 @@
+.contactContainer{
+    margin-bottom: 3rem;
+}
+
+.contactTitle {
+    font-size: 1.4rem;
+    text-align: center;
+    margin: 2rem;
+}
+
+.contactList{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.contactList li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.2rem;
+}

@@ -1,17 +1,18 @@
-import { SiLinkedin, SiGithub } from 'react-icons/si';
+import { Link } from 'react-scroll';
 import './Home.css';
 
 const Home = () => {
     return (
-        <section className="homeContainer">
+        <section className="homeContainer" id="home">
             <div className="heroSection">
                 <p>Hi, I am</p>
                 <h1>Gaston Avogadro</h1>
                 <h2>Front-end Developer</h2>
-                <div className="socialMedia">
-                    <SiGithub size={30}/>
-                    <SiLinkedin size={30}/>
-                </div>
+            </div>
+            <div className="viewProjects">
+                <Link to="projects" spy={true} smooth={true} offset={-10} duration={500}>
+                    View projects
+                </Link>
             </div>
         </section>
     );
