@@ -14,6 +14,7 @@ const BgAnimated = () => {
                 id="tsparticles"
                 init={particlesInit}
                 options={{
+                    fullScreen: false,
                     autoPlay: true,
                     background: {
                         color: {
