@@ -1,20 +1,30 @@
 .contactContainer{
-    margin-bottom: 3rem;
+    padding: 3rem 0;
 }
 
 .contactTitle {
     font-size: 1.4rem;
     text-align: center;
-    margin: 2rem;
+    margin-bottom: 2rem;
+}
+
+.contactMail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    gap: 0.5rem;
 }
 
 .contactList{
     display: flex;
     justify-content: center;
-    gap: 2rem;
+    align-items: center;
+    gap: 1rem;
 }
 
-.contactList li{
+.contactList li a{
     display: flex;
     flex-direction: column;
     align-items: center;

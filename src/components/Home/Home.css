@@ -1,6 +1,8 @@
 .homeContainer {
+    margin-top: 4rem;
     height: 92vh;
     width: 100%;
+    overflow: hidden;
 }
 
 .heroSection {
@@ -26,6 +28,11 @@
 }
 
 .viewProjects{
+    width: fit-content;
+    border: 1px solid white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    margin-top: 2rem;
     cursor: pointer;
 }
 
@@ -42,6 +49,9 @@
 }
 
 @media (min-width: 720px) {
+    .homeContainer{
+        margin-top: 0;
+    }
     .heroSection {
         padding-left: 14%;
     }

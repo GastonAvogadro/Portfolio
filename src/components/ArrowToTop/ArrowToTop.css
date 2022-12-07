@@ -1,0 +1,11 @@
+@media (min-width: 720px) {
+    .arrowToTop {
+        position: fixed;
+        bottom: 3rem;
+        right: 3rem;
+        background-color: rgba(90, 94, 97, 0.537);
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 2;
+    }
+}

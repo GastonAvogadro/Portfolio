@@ -5,31 +5,31 @@ const Skills = () => {
     const skills = [
         {
             name: 'HTML',
-            icon: <SiHtml5 className='html'/>,
+            icon: <SiHtml5 size={25}/>,
         },
         {
             name: 'CSS',
-            icon: <SiCss3 />,
+            icon: <SiCss3 size={25}/>,
         },
         {
             name: 'JavaScript',
-            icon: <SiJavascript />,
+            icon: <SiJavascript size={25}/>,
         },
         {
             name: 'React',
-            icon: <SiReact />,
+            icon: <SiReact size={25}/>,
         },
         {
             name: 'SASS',
-            icon: <SiSass />,
+            icon: <SiSass size={25}/>,
         },
         {
             name: 'Bootstrap',
-            icon: <SiBootstrap />,
+            icon: <SiBootstrap size={25}/>,
         },
         {
             name: 'Git',
-            icon: <SiGit />,
+            icon: <SiGit size={25}/>,
         },
     ];
 
@@ -38,7 +38,7 @@ const Skills = () => {
             <h3>Tech skills:</h3>
             <ul className='skillsList'>
                 {skills.map((skill) => (
-                    <li key={skill.name}>
+                    <li key={skill.name} className={skill.name.toLowerCase()}>
                         {skill.icon}
                         <p>{skill.name}</p>
                     </li>

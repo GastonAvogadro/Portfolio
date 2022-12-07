@@ -3,22 +3,26 @@ import './Contact.css';
 
 const Contact = () => {
     return (
-        <section className="contactContainer" id='contact'>
+        <section className="contactContainer" id="contact">
             <div className="contactTitle">
                 <h3>Contact</h3>
             </div>
-            <ul className='contactList'>
+            <div className="contactMail">
+                <SiGmail />
+                <p>gaston.avogado@gmail.com</p>
+            </div>
+            <ul className="contactList">
                 <li>
-                    <SiGmail size={"2rem"} />
-                    <p>Mail</p>
+                    <a href='https://www.linkedin.com/in/gaston-avogadro/'>
+                        <SiLinkedin size={30}/>
+                        <p>LinkedIn</p>
+                    </a>
                 </li>
                 <li>
-                    <SiLinkedin size={"2rem"} />
-                    <p>LinkedIn</p>
-                </li>
-                <li>
-                    <SiGithub size={"2rem"} />
-                    <p>GitHub</p>
+                    <a href='https://github.com/GastonAvogadro'>
+                        <SiGithub size={30}/>
+                        <p>GitHub</p>
+                    </a>
                 </li>
             </ul>
         </section>

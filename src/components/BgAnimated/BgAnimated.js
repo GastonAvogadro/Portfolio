@@ -13,6 +13,7 @@ const BgAnimated = () => {
             <Particles
                 id="tsparticles"
                 init={particlesInit}
+                height={'90vh'}
                 options={{
                     fullScreen: false,
                     autoPlay: true,

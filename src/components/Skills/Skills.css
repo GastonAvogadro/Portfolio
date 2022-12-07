@@ -1,25 +1,46 @@
-.skillsSection{
+.skillsSection {
     margin: 2rem 0;
 }
 
-.skillsSection h3{
+.skillsSection h3 {
     margin-bottom: 1.5rem;
 }
 
-.skillsList{
+.skillsList {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
 }
 
-.skillsList li{
+.skillsList li {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 0.2rem;
+    transition: all .4s;
 }
 
-.html:hover{
-    color: aqua;
+/* -- TECH ICONS COLOR -- */
+
+.html:hover {
+    color: #e44b25;
+}
+.css:hover {
+    color: #2071f2;
+}
+.javascript:hover {
+    color: #ead41c;
+}
+.react:hover {
+    color: #5ccfee;
+}
+.sass:hover {
+    color: #c45f92;
+}
+.bootstrap:hover {
+    color: #6f11eb;
+}
+.git:hover {
+    color: #e44c30;
 }

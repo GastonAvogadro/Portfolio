@@ -1,21 +1,22 @@
-.aboutContainer{
+.aboutContainer {
     background-color: #343333;
+    padding: 3rem 0;
 }
 
 .aboutTitle {
     font-size: 1.4rem;
     text-align: center;
-    margin: 2rem;
+    margin-bottom: 2rem;
 }
 
-.aboutBio{
+.aboutBio {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.aboutBio div{
+.aboutBio div {
     width: 90%;
     margin-bottom: 1rem;
     display: flex;
@@ -24,6 +25,24 @@
     align-items: center;
 }
 
-.aboutImg img{
-    max-width: 70vw
+.aboutImg img {
+    max-width: 70vw;
+}
+
+@media (min-width: 576px) {
+    .aboutTxt {
+        max-width: 80%;
+    }
+}
+
+@media (min-width: 800px) {
+    .aboutTxt {
+        max-width: 70%;
+    }
+}
+
+@media (min-width: 1200px) {
+    .aboutTxt {
+        max-width: 60%;
+    }
 }
