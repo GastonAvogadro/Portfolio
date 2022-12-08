@@ -17,7 +17,7 @@ const ArrowToTop = () => {
 
     return (
         showArrow && (
-            <div className="arrowToTop" onClick={() => scroll.scrollToTop()}>
+            <div className="arrowToTop" onClick={() => scroll.scrollToTop({duration: 500})}>
                 <IoIosArrowUp size={60} />
             </div>
         )

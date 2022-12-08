@@ -44,6 +44,11 @@
     cursor: pointer;
 }
 
+.navLinks li:hover {
+    transition: ease .3s;
+    color: #ed5617;
+}
+
 .toggleOpen {
     display: flex;
 }

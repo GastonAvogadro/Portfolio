@@ -43,7 +43,7 @@ const NavBar = () => {
                         onClick={() => isOpen && setIsOpen(false)}
                         spy={true}
                         smooth={true}
-                        offset={handleScrollOffset(-10, -70)}
+                        offset={handleScrollOffset(20, -20)}
                         duration={500}
                     >
                         Projects
@@ -55,7 +55,7 @@ const NavBar = () => {
                         onClick={() => isOpen && setIsOpen(false)}
                         spy={true}
                         smooth={true}
-                        offset={handleScrollOffset(10, -50)}
+                        offset={handleScrollOffset(10, -20)}
                         duration={500}
                     >
                         About

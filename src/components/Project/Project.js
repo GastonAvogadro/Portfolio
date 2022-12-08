@@ -15,7 +15,7 @@ const Project = ({ name, tech, image, linkSite, linkRepo }) => {
                 <div>
                     <a href={linkSite}>
                         <AiOutlineLink size={30} />
-                        <p>Link</p>
+                        <p>Visit</p>
                     </a>
                 </div>
                 <div>

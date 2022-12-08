@@ -8,4 +8,9 @@
         cursor: pointer;
         z-index: 2;
     }
+    .arrowToTop:hover {
+        transform: scale(1.1);
+        transition: ease .3s;
+        color: #ed5617;
+    }
 }

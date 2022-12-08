@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import BgAnimated from '../BgAnimated/BgAnimated';
 import ArrowToTop from '../ArrowToTop/ArrowToTop';
 import './Home.css';
 
@@ -20,9 +19,13 @@ const Home = () => {
     const handleScrollOffset = (desk, mob) => {
         return windowWidth > 720 ? desk : mob;
     };
+
     return (
-        <section className="homeContainer" id="home">
-            <BgAnimated />
+        <section
+            className="homeContainer"
+            id="home"
+            style={{ backgroundImage: `url(${process.env.PUBLIC_URL + './assets/img/BgWave.svg'})` }}
+        >
             <div className="heroSection">
                 <p>Hi, I am</p>
                 <h1>Gaston Avogadro</h1>
@@ -32,7 +35,7 @@ const Home = () => {
                         to="projects"
                         spy={true}
                         smooth={true}
-                        offset={handleScrollOffset(-10, -70)}
+                        offset={handleScrollOffset(20, -20)}
                         duration={500}
                     >
                         View projects

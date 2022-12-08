@@ -4,30 +4,30 @@ import './ProjectsList.css';
 const ProjectsList = () => {
     const projects = [
         {
-            name: 'Leather Life',
+            name: 'E-commerce',
             tech: ['React', 'Bootstrap', 'Firebase'],
-            image: 'https://i.ibb.co/NVj0bqJ/leather.png',
+            image: 'https://i.ibb.co/6WNz5Wd/leather.png',
             linkSite: 'https://leather-life.netlify.app/',
             linkRepo: 'https://github.com/GastonAvogadro/E-Commerce-React',
         },
         {
             name: 'Astro Coaching',
             tech: ['HTML', 'SASS', 'Bootstrap'],
-            image: 'https://i.ibb.co/z8zgYG8/astro.png',
+            image: 'https://i.ibb.co/Mhv4Hk0/astro.png',
             linkSite: 'https://astrocoaching.netlify.app/',
             linkRepo: 'https://github.com/GastonAvogadro/AstroCoaching-HTML-CSS',
         },
         {
             name: 'Weather App',
             tech: ['HTML', 'SASS','JavaScript'],
-            image: 'https://i.ibb.co/wLVx4RC/weather.png',
+            image: 'https://i.ibb.co/wQvSDTN/weather.png',
             linkSite: 'https://weatherapp-vanillajs.netlify.app/',
             linkRepo: 'https://github.com/GastonAvogadro/WeatherApp-JavaScript-Vanilla',
         },
         {
             name: 'Portfolio',
             tech: ['React', 'CSS'],
-            image: 'https://picsum.photos/300/169',
+            image: 'https://i.ibb.co/p26CrcQ/portfolio.png',
             linkSite: '',
             linkRepo: '',
         },
