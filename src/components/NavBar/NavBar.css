@@ -55,7 +55,7 @@
 
 @media (min-width: 720px) {
     .navBar{
-        position: relative;
+        position: absolute;
         display: flex;
         justify-content: space-between;
         align-items: center;
