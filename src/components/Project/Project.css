@@ -1,9 +1,9 @@
 .projectCard {
-    background-color: #1f1f1f;
+    background-color: #2a2929;
     width: 500px;
     border-radius: 1rem;
     margin: 1rem;
-    padding-bottom: 1rem;
+    padding-bottom: 0.3rem;
 }
 
 .projectCard__img {
@@ -25,17 +25,17 @@
     display: flex;
     justify-content: center;
     align-items: flex-end;
-    padding-bottom: 1rem;
-    background: rgb(167, 167, 167);
+    padding-bottom: 0.5rem;
+    background: rgb(255, 255, 255);
     background: linear-gradient(
         180deg,
-        rgba(142, 142, 142, 0.315) 0%,
-        rgba(0, 0, 0, 0.8632586823792017) 67%
+        rgba(255, 255, 255, 0.07614383644082634) 69%,
+        rgba(0, 0, 0, 0.7568161053483894) 78%
     );
 }
 
 .projectCard__title p {
-    font-size: 1.4rem;
+    font-size: 1.1rem;
 }
 
 .projectCard__links {
@@ -52,8 +52,17 @@
 }
 
 .projectCard__links div a:hover {
-    transition: ease .3s;
+    transition: ease 0.3s;
     color: #ed5617;
+}
+
+@media (min-width: 530px) {
+    .projectCard__title{
+        padding-bottom: 1.2rem;
+    }
+    .projectCard__title p {
+        font-size: 1.4rem;
+    }
 }
 
 @media (min-width: 900px) {
