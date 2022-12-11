@@ -7,7 +7,7 @@ const BrandLogo = () => {
     return (
         <div className="brandLogo">
             <img
-                src="https://i.ibb.co/SRT9F4P/GA.png"
+                src={process.env.PUBLIC_URL + '/assets/img/GA-logo.png'}
                 alt="Gaston Avogadro"
                 onClick={() => scroll.scrollToTop()}
             />
