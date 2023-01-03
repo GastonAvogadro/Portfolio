@@ -4,6 +4,7 @@
     border-radius: 1rem;
     margin: 1rem;
     padding-bottom: 0.3rem;
+    box-shadow: -1px 0px 16px 3px rgba(0, 0, 0, 0.51);
 }
 
 .projectCard__img {
@@ -57,7 +58,7 @@
 }
 
 @media (min-width: 530px) {
-    .projectCard__title{
+    .projectCard__title {
         padding-bottom: 1.2rem;
     }
     .projectCard__title p {
