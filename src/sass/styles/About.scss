@@ -1,0 +1,37 @@
+.aboutContainer {
+    background-color: #343333;
+    padding: 5rem 0;
+    .aboutTitle {
+        font-size: 1.4rem;
+        text-align: center;
+        margin-bottom: 2rem;
+    }
+    .aboutBio {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        div {
+            width: 90%;
+            margin-bottom: 1rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .aboutImg img {
+            max-width: 70vw;
+        }
+        .aboutTxt {
+            @include screen_576 {
+                max-width: 80%;
+            }
+            @include screen_800 {
+                max-width: 70%;
+            }
+            @include screen_1200 {
+                max-width: 60%;
+            }
+        }
+    }
+}

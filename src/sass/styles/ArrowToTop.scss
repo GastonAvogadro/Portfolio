@@ -1,0 +1,16 @@
+@include screen_720{
+    .arrowToTop {
+        position: fixed;
+        bottom: 3rem;
+        right: 3rem;
+        background-color: rgba(90, 94, 97, 0.537);
+        border-radius: 50%;
+        cursor: pointer;
+        z-index: 2;
+    }
+    .arrowToTop:hover {
+        transform: scale(1.1);
+        transition: ease .3s;
+        color: #ed5617;
+    }
+}

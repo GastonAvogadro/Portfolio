@@ -1,0 +1,61 @@
+.homeContainer {
+    height: 100vh;
+    width: 100%;
+    overflow: hidden;
+    background-image: url(../../assets/BgWave.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    @include screen_720 {
+        margin-top: 0;
+    }
+    .heroSection {
+        margin-top: 9rem;
+        width: 90%;
+        padding-left: 6%;
+        p {
+            font-weight: 300;
+            font-size: clamp(0.8rem, 2vw, 1.2rem);
+        }
+        h1 {
+            font-size: clamp(2.15rem, 5.5vw, 3.7rem);
+            padding: 0.5rem 0;
+            @include screen_373 {
+                line-height: 2.2rem;
+            }
+        }
+        h2 {
+            font-size: clamp(1.3rem, 3.2vw, 2.1rem);
+            font-weight: 300;
+        }
+        @include screen_500 {
+            padding-left: 10%;
+        }
+        @include screen_720 {
+            padding-left: 14%;
+            margin-top: 8.5rem;
+        }
+        @include screen_1300 {
+            margin-top: 10rem;
+            padding-left: 18%;
+        }
+    }
+    .viewProjects {
+        width: 9rem;
+        height: 3rem;
+        border: 1px solid white;
+        border-radius: 0.5rem;
+        margin-top: 2rem;
+        cursor: pointer;
+        a {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &:hover {
+            transition: ease 0.4s;
+            border: 1px solid #ed5617;
+        }
+    }
+}

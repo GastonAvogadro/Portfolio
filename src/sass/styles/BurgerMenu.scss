@@ -1,0 +1,9 @@
+.burgerContainer {
+    position: fixed;
+    top: 0.5rem;
+    right: 0.8rem;
+    z-index: 5;
+    @include screen_720 {
+        display: none;
+    }
+}

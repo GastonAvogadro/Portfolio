@@ -1,9 +1,9 @@
-import './App.css';
-import NavBar from './components/NavBar/NavBar';
-import Home from './components/Home/Home';
-import ProjectsContainer from './components/ProjectsContainer/ProjectsContainer';
-import About from './components/About/About';
-import Contact from './components/Contact/Contact';
+import './sass/App.scss';
+import NavBar from './components/NavBar';
+import Home from './components/Home';
+import ProjectsContainer from './components/ProjectsContainer';
+import About from './components/About';
+import Contact from './components/Contact';
 
 function App() {
     return (
