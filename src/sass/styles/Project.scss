@@ -1,3 +1,11 @@
+.dark .projectCard {
+    background-color: $dark-bg-2;
+}
+
+.light .projectCard {
+    background-color: $light-bg-2;
+}
+
 .projectCard {
     background-color: #2a2929;
     width: 500px;
@@ -57,7 +65,7 @@
             align-items: center;
             &:hover {
                 transition: ease 0.3s;
-                color: #ed5617;
+                color: $primary-color;
             }
         }
     }

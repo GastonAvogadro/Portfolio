@@ -1,6 +1,7 @@
 @import './mixins';
+@import './colorThemes';
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import './reset';
+@import './general';
 
 // Components
 
@@ -15,3 +16,4 @@
 @import './styles/ProjectsList';
 @import './styles/ProjectTech';
 @import './styles/Skills';
+@import './styles/ThemeSwitch';

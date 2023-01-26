@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
 import BurgerMenu from './BurgerMenu';
+import ThemeSwitch from './ThemeSwitch';
 
 const BrandLogo = () => {
     return (
@@ -72,6 +73,7 @@ const NavBar = () => {
                     </Link>
                 </li>
             </ul>
+            <ThemeSwitch />
             <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
         </header>
     );

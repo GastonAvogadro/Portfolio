@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.dark {
+    background-color: $dark-bg-1;
+    color: $dark-txt;
+    transition: color 0.3s linear;
+    transition: background-color 0.3s linear !important;
+}
+
+.light {
+    background-color: $light-bg-1;
+    color: $light-txt;
+    transition: color 0.3s linear;
+    transition: background-color 0.3s linear !important;
+}

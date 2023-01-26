@@ -1,5 +1,16 @@
+.light .aboutContainer {
+    background-color: $light-bg-2;
+    //transition: background-color 0.3s linear !important;
+
+}
+
+.dark .aboutContainer {
+    background-color: $dark-bg-2;
+    //transition: background-color 0.3s linear !important;
+
+}
+
 .aboutContainer {
-    background-color: #343333;
     padding: 5rem 0;
     .aboutTitle {
         font-size: 1.4rem;

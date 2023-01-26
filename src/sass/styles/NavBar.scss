@@ -53,7 +53,7 @@
             cursor: pointer;
             &:hover {
                 transition: ease 0.3s;
-                color: #ed5617;
+                color: $primary-color;
             }
         }
         @include screen_720 {
