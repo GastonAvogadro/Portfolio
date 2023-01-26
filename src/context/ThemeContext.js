@@ -10,7 +10,7 @@ const ThemeContext = ({ children }) => {
     };
 
     return (
-        <UseThemeContext.Provider value={{ theme, setTheme, handleTheme }}>
+        <UseThemeContext.Provider value={{ theme, handleTheme }}>
             {children}
         </UseThemeContext.Provider>
     );

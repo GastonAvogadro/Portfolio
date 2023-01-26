@@ -1,9 +1,16 @@
+.dark .projectCard__tech p {
+    background-color: rgb(105, 104, 105);
+}
+
+.light .projectCard__tech p {
+    background-color: $light-bg-1;
+}
+
 .projectCard__tech {
     display: flex;
     justify-content: center;
     margin-bottom: 0.5rem;
     p {
-        background-color: rgb(105, 104, 105);
         width: fit-content;
         padding: 0.2rem 0.8rem;
         border-radius: 1rem;

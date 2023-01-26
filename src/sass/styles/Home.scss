@@ -1,3 +1,14 @@
+.dark .homeContainer .viewProjects{
+    border: 1px solid white;
+    transition: border 0.3s;
+}
+
+.light .homeContainer .viewProjects{
+    border: 1px solid black;
+    transition: border 0.3s;
+}
+
+
 .homeContainer {
     height: 100vh;
     width: 100%;
@@ -42,7 +53,6 @@
     .viewProjects {
         width: 9rem;
         height: 3rem;
-        border: 1px solid white;
         border-radius: 0.5rem;
         margin-top: 2rem;
         cursor: pointer;

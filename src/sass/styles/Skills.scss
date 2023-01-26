@@ -20,24 +20,26 @@
 
 /* -- TECH ICONS COLOR -- */
 
-.html:hover {
-    color: #e44b25;
-}
-.css:hover {
-    color: #2071f2;
-}
-.javascript:hover {
-    color: #ead41c;
-}
-.react:hover {
-    color: #5ccfee;
-}
-.sass:hover {
-    color: #c45f92;
-}
-.bootstrap:hover {
-    color: #6f11eb;
-}
-.git:hover {
-    color: #e44c30;
+@include screen_720 {
+    .html:hover {
+        color: #e44b25;
+    }
+    .css:hover {
+        color: #2071f2;
+    }
+    .javascript:hover {
+        color: #ead41c;
+    }
+    .react:hover {
+        color: #5ccfee;
+    }
+    .sass:hover {
+        color: #c45f92;
+    }
+    .bootstrap:hover {
+        color: #6f11eb;
+    }
+    .git:hover {
+        color: #e44c30;
+    }
 }
