@@ -3,9 +3,25 @@ import astroCoaching from '../assets/astroCoaching.png';
 import leatherLife from '../assets/leatherLife.png';
 import portfolio from '../assets/portfolio.png';
 import weather from '../assets/weather.png';
+import NFS from '../assets/NFS.png';
+import AF_MKT from '../assets/AF-MKT.png';
 
 const ProjectsList = () => {
     const projects = [
+        {
+            name: 'Need For Speed (desktop)',
+            tech: ['REACT', 'SASS', 'Firebase'],
+            image: `${NFS}`,
+            linkSite: 'https://need-for-speed-five.vercel.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/Need-For-Speed',
+        },
+        {
+            name: 'AF-Marketing',
+            tech: ['HTML', 'SASS', 'JavaScript'],
+            image: `${AF_MKT}`,
+            linkSite: 'https://gastonavogadro.github.io/AF-Marketing/',
+            linkRepo: 'https://github.com/GastonAvogadro/AF-Marketing',
+        },
         {
             name: 'E-commerce',
             tech: ['React', 'Bootstrap', 'Firebase'],
