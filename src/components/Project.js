@@ -4,10 +4,12 @@ import ProjectTech from './ProjectTech';
 const Project = ({ name, tech, image, linkSite, linkRepo }) => {
     return (
         <div className="projectCard" key={name}>
-            <div className='projectCard__img'>
+            <div className="projectCard__img">
                 <img src={image} alt={name} />
-                <div className='projectCard__title'>
-                    <p>{name}</p>
+                <div className="projectCard__title">
+                    <div>
+                        <p>{name}</p>
+                    </div>
                 </div>
             </div>
             <div className="projectCard__links">

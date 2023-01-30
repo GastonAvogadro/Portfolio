@@ -13,7 +13,6 @@ const ThemeSwitch = ({ isOpen }) => {
             <label className="switch">
                 <input type="checkbox" onClick={handleTheme} />
                 <span className="slider"></span>
-                {console.log(theme)}
             </label>
         </div>
     );

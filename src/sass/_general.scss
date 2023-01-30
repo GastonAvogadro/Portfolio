@@ -22,11 +22,11 @@ body {
 .dark {
     background-color: $dark-bg-1;
     color: $dark-txt;
-    transition: background-color 0.3s linear, color 0.3s linear;
+    transition: all ease 0.3s;
 }
 
 .light {
     background-color: $light-bg-1;
     color: $light-txt;
-    transition: background-color 0.3s linear, color 0.3s linear;
+    transition: all ease 0.3s;
 }

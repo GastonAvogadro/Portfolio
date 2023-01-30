@@ -10,7 +10,7 @@ const ProjectsList = () => {
     const projects = [
         {
             name: 'Need For Speed (desktop)',
-            tech: ['REACT', 'SASS', 'Firebase'],
+            tech: ['React', 'SASS', 'Firebase'],
             image: `${NFS}`,
             linkSite: 'https://need-for-speed-five.vercel.app/',
             linkRepo: 'https://github.com/GastonAvogadro/Need-For-Speed',

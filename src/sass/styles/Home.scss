@@ -1,13 +1,12 @@
-.dark .homeContainer .viewProjects{
+.dark .homeContainer .viewProjects {
     border: 1px solid white;
-    transition: border 0.3s;
+    transition: border ease 0.3s;
 }
 
-.light .homeContainer .viewProjects{
+.light .homeContainer .viewProjects {
     border: 1px solid black;
-    transition: border 0.3s;
+    transition: border ease 0.3s;
 }
-
 
 .homeContainer {
     height: 100vh;
