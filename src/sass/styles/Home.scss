@@ -10,6 +10,7 @@
 
 .homeContainer {
     height: 100vh;
+    max-height: 800px;
     width: 100%;
     overflow: hidden;
     background-image: url(../../assets/BgWave.svg);
@@ -17,9 +18,14 @@
     background-size: cover;
     @include screen_720 {
         margin-top: 0;
+        max-height: initial;
     }
     .heroSection {
-        margin-top: 9rem;
+        height: 85%;
+        min-height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
         width: 90%;
         padding-left: 6%;
         p {
@@ -42,10 +48,8 @@
         }
         @include screen_720 {
             padding-left: 14%;
-            margin-top: 8.5rem;
         }
         @include screen_1300 {
-            margin-top: 10rem;
             padding-left: 18%;
         }
     }

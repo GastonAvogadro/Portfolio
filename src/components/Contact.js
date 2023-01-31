@@ -8,18 +8,20 @@ const Contact = () => {
             </div>
             <div className="contactMail">
                 <SiGmail />
-                <p>gaston.avogado@gmail.com</p>
+                <a href="mailto:gaston.avogado@gmail.com">
+                    <p>gaston.avogado@gmail.com</p>
+                </a>
             </div>
             <ul className="contactList">
                 <li>
-                    <a href='https://www.linkedin.com/in/gaston-avogadro/'>
-                        <SiLinkedin size={30}/>
+                    <a href="https://www.linkedin.com/in/gaston-avogadro/">
+                        <SiLinkedin size={30} />
                         <p>LinkedIn</p>
                     </a>
                 </li>
                 <li>
-                    <a href='https://github.com/GastonAvogadro'>
-                        <SiGithub size={30}/>
+                    <a href="https://github.com/GastonAvogadro">
+                        <SiGithub size={30} />
                         <p>GitHub</p>
                     </a>
                 </li>
