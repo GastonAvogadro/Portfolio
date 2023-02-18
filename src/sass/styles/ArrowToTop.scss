@@ -1,5 +1,7 @@
-@include screen_720{
-    .arrowToTop {
+.arrowToTop {
+    display: none;
+    @include screen_720{
+        display: block;
         position: fixed;
         bottom: 3rem;
         right: 3rem;
@@ -7,10 +9,10 @@
         border-radius: 50%;
         cursor: pointer;
         z-index: 2;
-    }
-    .arrowToTop:hover {
-        transform: scale(1.05);
-        transition: ease .3s;
-        color: $primary-color;
+        &:hover {
+            transform: scale(1.05);
+            transition: ease 0.3s;
+            color: $primary-color;
+        }
     }
 }
