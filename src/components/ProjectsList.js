@@ -19,7 +19,7 @@ const ProjectsList = () => {
             name: 'AF-Marketing',
             tech: ['HTML', 'SASS', 'JavaScript'],
             image: `${AF_MKT}`,
-            linkSite: 'https://gastonavogadro.github.io/AF-Marketing/',
+            linkSite: 'https://feliaranda.com.ar/',
             linkRepo: 'https://github.com/GastonAvogadro/AF-Marketing',
         },
         {

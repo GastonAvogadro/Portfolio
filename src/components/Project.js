@@ -14,14 +14,14 @@ const Project = ({ name, tech, image, linkSite, linkRepo }) => {
             </div>
             <div className="projectCard__links">
                 <div>
-                    <a href={linkSite}>
+                    <a href={linkSite} target="_blank">
                         <AiOutlineLink size={30} />
                         <p>Visit</p>
                     </a>
                 </div>
                 <div>
                     <a href={linkRepo}>
-                        <AiOutlineGithub size={30} />
+                        <AiOutlineGithub size={30} target="_blank"/>
                         <p>Github</p>
                     </a>
                 </div>
