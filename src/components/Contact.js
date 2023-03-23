@@ -14,13 +14,13 @@ const Contact = () => {
             </div>
             <ul className="contactList">
                 <li>
-                    <a href="https://www.linkedin.com/in/gaston-avogadro/" target="_blank">
+                    <a href="https://www.linkedin.com/in/gaston-avogadro/" target="_blank" rel="noopener noreferrer">
                         <SiLinkedin size={30} />
                         <p>LinkedIn</p>
                     </a>
                 </li>
                 <li>
-                    <a href="https://github.com/GastonAvogadro" target="_blank">
+                    <a href="https://github.com/GastonAvogadro" target="_blank" rel="noopener noreferrer">
                         <SiGithub size={30} />
                         <p>GitHub</p>
                     </a>
