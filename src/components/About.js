@@ -5,13 +5,13 @@ import imgAbout from '../assets/imgAbout.jpg';
 const About = () => {
     return (
         <section className="aboutContainer" id="about">
-            <Fade direction="down" triggerOnce>
+            <Fade delay={300} direction="down" triggerOnce>
                 <div className="aboutTitle">
                     <h3>About</h3>
                 </div>
             </Fade>
             <article className="aboutBio">
-                <Fade triggerOnce>
+                <Fade delay={300} triggerOnce>
                     <div className="aboutTxt">
                         <p>
                             My name is Gaston, I'm a front-end developer (and a drummer too!). I'm an

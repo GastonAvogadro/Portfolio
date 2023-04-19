@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
-import { Fade, Slide } from 'react-awesome-reveal';
+import { Fade } from 'react-awesome-reveal';
 import ArrowToTop from './ArrowToTop';
 
 const Home = () => {
@@ -23,18 +23,18 @@ const Home = () => {
     return (
         <section className="homeContainer" id="home">
             <div className="heroSection">
-                <Slide direction="down" triggerOnce>
+                <Fade delay={1000} direction="down" triggerOnce>
                     <p>Hi, I am</p>
-                </Slide>
+                </Fade>
                 <h1>
-                    <Fade delay={1e2} cascade damping={1e-1}>
+                    <Fade delay={1e2} cascade damping={1e-1} triggerOnce>
                         Gaston Avogadro
                     </Fade>
                 </h1>
-                <Slide triggerOnce>
+                <Fade delay={1000} triggerOnce>
                     <h2>Front-end Developer</h2>
-                </Slide>
-                <Slide direction="up" triggerOnce>
+                </Fade>
+                <Fade delay={1000} direction="up" triggerOnce>
                     <div className="viewProjects">
                         <Link
                             to="projects"
@@ -46,7 +46,7 @@ const Home = () => {
                             View projects
                         </Link>
                     </div>
-                </Slide>
+                </Fade>
             </div>
             <ArrowToTop />
         </section>
