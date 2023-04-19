@@ -1,10 +1,10 @@
 import { AiOutlineLink, AiOutlineGithub } from 'react-icons/ai';
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import ProjectTech from './ProjectTech';
 
 const Project = ({ name, tech, image, linkSite, linkRepo }) => {
     return (
-        <Fade>
+        <Fade triggerOnce>
             <div className="projectCard" key={name}>
                 <div className="projectCard__img">
                     <img src={image} alt={name} />

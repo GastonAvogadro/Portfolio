@@ -1,15 +1,15 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from "react-awesome-reveal";
 import { SiGmail, SiLinkedin, SiGithub } from 'react-icons/si';
 
 const Contact = () => {
     return (
         <section className="contactContainer" id="contact">
-            <Fade top>
+            <Fade direction="down" triggerOnce>
                 <div className="contactTitle">
                     <h3>Contact</h3>
                 </div>
             </Fade>
-            <Fade>
+            <Fade triggerOnce>
                 <div className="contactMail">
                     <SiGmail />
                     <a href="mailto:gaston.avogado@gmail.com">

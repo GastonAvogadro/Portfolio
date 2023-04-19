@@ -1,14 +1,14 @@
-import { Fade } from 'react-reveal';
+import { Slide } from "react-awesome-reveal";
 import ProjectsList from './ProjectsList';
 
 const ProjectsContainer = () => {
     return (
         <section className="projectsContainer" id="projects">
-            <Fade top>
+            <Slide direction="down" triggerOnce>
                 <div className="projectsTitle">
                     <h3>Projects</h3>
                 </div>
-            </Fade>
+            </Slide>
             <article className="projectsList">
                 <ProjectsList />
             </article>

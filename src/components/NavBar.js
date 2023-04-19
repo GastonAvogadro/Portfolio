@@ -1,6 +1,5 @@
 import { useEffect, useState } from 'react';
 import { Link, animateScroll as scroll } from 'react-scroll';
-import Fade from 'react-reveal/Fade';
 import GAlogo from '../assets/GA-logo.png';
 import BurgerMenu from './BurgerMenu';
 import ThemeSwitch from './ThemeSwitch';
@@ -32,50 +31,48 @@ const NavBar = () => {
     };
 
     return (
-        <Fade>
-            <header className="navBar">
-                <BrandLogo />
-                <ul className={`navLinks ${isOpen ? 'toggleOpen' : ''}`}>
-                    <li>
-                        <Link
-                            to="projects"
-                            onClick={() => isOpen && setIsOpen(false)}
-                            spy={true}
-                            smooth={true}
-                            offset={handleScrollOffset(20, -20)}
-                            duration={500}
-                        >
-                            Projects
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="about"
-                            onClick={() => isOpen && setIsOpen(false)}
-                            spy={true}
-                            smooth={true}
-                            offset={handleScrollOffset(10, -20)}
-                            duration={500}
-                        >
-                            About
-                        </Link>
-                    </li>
-                    <li>
-                        <Link
-                            to="contact"
-                            onClick={() => isOpen && setIsOpen(false)}
-                            spy={true}
-                            smooth={true}
-                            duration={500}
-                        >
-                            Contact
-                        </Link>
-                    </li>
-                </ul>
-                <ThemeSwitch isOpen={isOpen} />
-                <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
-            </header>
-        </Fade>
+        <header className="navBar">
+            <BrandLogo />
+            <ul className={`navLinks ${isOpen ? 'toggleOpen' : ''}`}>
+                <li>
+                    <Link
+                        to="projects"
+                        onClick={() => isOpen && setIsOpen(false)}
+                        spy={true}
+                        smooth={true}
+                        offset={handleScrollOffset(20, -20)}
+                        duration={500}
+                    >
+                        Projects
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="about"
+                        onClick={() => isOpen && setIsOpen(false)}
+                        spy={true}
+                        smooth={true}
+                        offset={handleScrollOffset(10, -20)}
+                        duration={500}
+                    >
+                        About
+                    </Link>
+                </li>
+                <li>
+                    <Link
+                        to="contact"
+                        onClick={() => isOpen && setIsOpen(false)}
+                        spy={true}
+                        smooth={true}
+                        duration={500}
+                    >
+                        Contact
+                    </Link>
+                </li>
+            </ul>
+            <ThemeSwitch isOpen={isOpen} />
+            <BurgerMenu isOpen={isOpen} setIsOpen={setIsOpen} />
+        </header>
     );
 };
 

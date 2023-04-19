@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { Link } from 'react-scroll';
+import { Fade, Slide } from "react-awesome-reveal";
 import ArrowToTop from './ArrowToTop';
-import Fade from 'react-reveal/Fade';
 
 const Home = () => {
     const [windowWidth, setWindowWidth] = useState(window.innerWidth);
@@ -23,15 +23,15 @@ const Home = () => {
     return (
         <section className="homeContainer" id="home">
             <div className="heroSection">
-                <Fade top>
+                <Slide direction='down' triggerOnce>
                     <p>Hi, I am</p>
-                </Fade>
-                <Fade left>
+                </Slide>
+                <Slide triggerOnce>
                     <h1>Gaston Avogadro</h1>
 
                     <h2>Front-end Developer</h2>
-                </Fade>
-                <Fade bottom>
+                </Slide>
+                <Slide direction='up' triggerOnce>
                     <div className="viewProjects">
                         <Link
                             to="projects"
@@ -43,7 +43,7 @@ const Home = () => {
                             View projects
                         </Link>
                     </div>
-                </Fade>
+                </Slide>
             </div>
             <ArrowToTop />
         </section>

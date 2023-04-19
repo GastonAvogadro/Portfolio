@@ -1,17 +1,17 @@
-import Fade from 'react-reveal/Fade';
+import { Fade } from 'react-awesome-reveal';
 import Skills from './Skills';
 import imgAbout from '../assets/imgAbout.jpg';
 
 const About = () => {
     return (
         <section className="aboutContainer" id="about">
-            <Fade top>
+            <Fade direction="down" triggerOnce>
                 <div className="aboutTitle">
                     <h3>About</h3>
                 </div>
             </Fade>
             <article className="aboutBio">
-                <Fade left>
+                <Fade triggerOnce>
                     <div className="aboutTxt">
                         <p>
                             My name is Gaston, I'm a front-end developer (and a drummer too!). I'm an
@@ -22,8 +22,6 @@ const About = () => {
                         </p>
                         <Skills />
                     </div>
-                </Fade>
-                <Fade>
                     <div className="aboutImg">
                         <img src={imgAbout} alt="Gaston" />
                     </div>
