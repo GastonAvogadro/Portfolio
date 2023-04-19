@@ -28,6 +28,7 @@
         }
         .aboutImg img {
             max-width: 70vw;
+            border-radius: 1rem;
         }
         .aboutTxt {
             @include screen_576 {

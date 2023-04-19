@@ -1,33 +1,36 @@
 import { AiOutlineLink, AiOutlineGithub } from 'react-icons/ai';
+import Fade from 'react-reveal/Fade';
 import ProjectTech from './ProjectTech';
 
 const Project = ({ name, tech, image, linkSite, linkRepo }) => {
     return (
-        <div className="projectCard" key={name}>
-            <div className="projectCard__img">
-                <img src={image} alt={name} />
-                <div className="projectCard__title">
-                    <div>
-                        <p>{name}</p>
+        <Fade>
+            <div className="projectCard" key={name}>
+                <div className="projectCard__img">
+                    <img src={image} alt={name} />
+                    <div className="projectCard__title">
+                        <div>
+                            <p>{name}</p>
+                        </div>
                     </div>
                 </div>
-            </div>
-            <div className="projectCard__links">
-                <div>
-                    <a href={linkSite} target="_blank" rel="noopener noreferrer">
-                        <AiOutlineLink size={30} />
-                        <p>Visit</p>
-                    </a>
+                <div className="projectCard__links">
+                    <div>
+                        <a href={linkSite} target="_blank" rel="noopener noreferrer">
+                            <AiOutlineLink size={30} />
+                            <p>Visit</p>
+                        </a>
+                    </div>
+                    <div>
+                        <a href={linkRepo} target="_blank" rel="noopener noreferrer">
+                            <AiOutlineGithub size={30} />
+                            <p>Github</p>
+                        </a>
+                    </div>
                 </div>
-                <div>
-                    <a href={linkRepo} target="_blank" rel="noopener noreferrer">
-                        <AiOutlineGithub size={30} />
-                        <p>Github</p>
-                    </a>
-                </div>
+                <ProjectTech tech={tech} />
             </div>
-            <ProjectTech tech={tech} />
-        </div>
+        </Fade>
     );
 };
 
