@@ -1,5 +1,6 @@
 # Portfolio
-(Aún en etapa de desarrollo)
+
+![af mkt](http://imgfz.com/i/V39OpDy.jpeg)
 
 Portfolio personal hecho con React donde iré alojando mis trabajos realizados
 
@@ -21,3 +22,4 @@ npm start
 ### Librerías: 
 - React-icons
 - React-scroll
+- React-awesome-reveal
