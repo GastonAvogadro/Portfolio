@@ -1,41 +1,59 @@
-import { SiHtml5, SiCss3, SiJavascript, SiReact, SiSass, SiBootstrap, SiGit } from 'react-icons/si';
+import {
+    SiHtml5,
+    SiCss3,
+    SiJavascript,
+    SiReact,
+    SiSass,
+    SiBootstrap,
+    SiGit,
+    SiNextdotjs,
+    SiTailwindcss,
+} from 'react-icons/si';
 
 const Skills = () => {
     const skills = [
         {
             name: 'HTML',
-            icon: <SiHtml5 size={25}/>,
+            icon: <SiHtml5 size={25} />,
         },
         {
             name: 'CSS',
-            icon: <SiCss3 size={25}/>,
+            icon: <SiCss3 size={25} />,
         },
         {
             name: 'JavaScript',
-            icon: <SiJavascript size={25}/>,
+            icon: <SiJavascript size={25} />,
         },
         {
             name: 'React',
-            icon: <SiReact size={25}/>,
+            icon: <SiReact size={25} />,
+        },
+        {
+            name: 'Next',
+            icon: <SiNextdotjs size={25} />,
         },
         {
             name: 'SASS',
-            icon: <SiSass size={25}/>,
+            icon: <SiSass size={25} />,
+        },
+        {
+            name: 'Tailwind',
+            icon: <SiTailwindcss size={25} />,
         },
         {
             name: 'Bootstrap',
-            icon: <SiBootstrap size={25}/>,
+            icon: <SiBootstrap size={25} />,
         },
         {
             name: 'Git',
-            icon: <SiGit size={25}/>,
+            icon: <SiGit size={25} />,
         },
     ];
 
     return (
-        <div className='skillsSection'>
+        <div className="skillsSection">
             <h3>Tech skills:</h3>
-            <ul className='skillsList'>
+            <ul className="skillsList">
                 {skills.map((skill) => (
                     <li key={skill.name} className={skill.name.toLowerCase()}>
                         {skill.icon}
