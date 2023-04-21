@@ -6,6 +6,7 @@ import weather from '../assets/weather.png';
 import NFS from '../assets/NFS.png';
 import AF_MKT from '../assets/AF-MKT.png';
 import legere from '../assets/legere.png'
+import ecoModa from '../assets/ecoModa.jpg'
 
 const ProjectsList = () => {
     const projects = [
@@ -31,6 +32,13 @@ const ProjectsList = () => {
             linkRepo: 'https://github.com/GastonAvogadro/AF-Marketing',
         },
         {
+            name: 'EcoModa',
+            tech: ['React Native'],
+            image: ecoModa,
+            //linkSite: 'https://feliaranda.com.ar/',
+            linkRepo: 'https://github.com/GastonAvogadro/Eco-Moda-React-Native',
+        },
+        {
             name: 'E-commerce',
             tech: ['React', 'Bootstrap', 'Firebase'],
             image: leatherLife,
@@ -41,8 +49,8 @@ const ProjectsList = () => {
             name: 'Portfolio',
             tech: ['React', 'SASS'],
             image: portfolio,
-            linkSite: '',
-            linkRepo: '',
+            linkSite: 'https://portfolio-avogadro-gaston.netlify.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/Portfolio',
         },
         {
             name: 'Astro Coaching',

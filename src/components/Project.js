@@ -15,12 +15,14 @@ const Project = ({ name, tech, image, linkSite, linkRepo }) => {
                     </div>
                 </div>
                 <div className="projectCard__links">
-                    <div>
-                        <a href={linkSite} target="_blank" rel="noopener noreferrer">
-                            <AiOutlineLink size={30} />
-                            <p>Visit</p>
-                        </a>
-                    </div>
+                    {linkSite && (
+                        <div>
+                            <a href={linkSite} target="_blank" rel="noopener noreferrer">
+                                <AiOutlineLink size={30} />
+                                <p>Visit</p>
+                            </a>
+                        </div>
+                    )}
                     <div>
                         <a href={linkRepo} target="_blank" rel="noopener noreferrer">
                             <AiOutlineGithub size={30} />
