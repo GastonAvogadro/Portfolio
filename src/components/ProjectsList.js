@@ -5,11 +5,19 @@ import portfolio from '../assets/portfolio.png';
 import weather from '../assets/weather.png';
 import NFS from '../assets/NFS.png';
 import AF_MKT from '../assets/AF-MKT.png';
-import legere from '../assets/legere.png'
-import ecoModa from '../assets/ecoModa.jpg'
+import legere from '../assets/legere.png';
+import ecoModa from '../assets/ecoModa.jpg';
+import constructora from '../assets/constructora.jpg';
 
 const ProjectsList = () => {
     const projects = [
+        {
+            name: 'Constructora Torres',
+            tech: ['React', 'SASS'],
+            image: constructora,
+            linkSite: 'https://torresalonsoconstructora.com/',
+            linkRepo: 'https://github.com/GastonAvogadro/Constructora-Torres-Alonso',
+        },
         {
             name: 'Legere',
             tech: ['React', 'SASS', 'Firebase'],
@@ -35,7 +43,6 @@ const ProjectsList = () => {
             name: 'EcoModa',
             tech: ['React Native'],
             image: ecoModa,
-            //linkSite: 'https://feliaranda.com.ar/',
             linkRepo: 'https://github.com/GastonAvogadro/Eco-Moda-React-Native',
         },
         {
