@@ -13,24 +13,16 @@ import {
 const Skills = () => {
     const skills = [
         {
-            name: 'HTML',
-            icon: <SiHtml5 size={25} />,
-        },
-        {
-            name: 'CSS',
-            icon: <SiCss3 size={25} />,
-        },
-        {
-            name: 'JavaScript',
-            icon: <SiJavascript size={25} />,
-        },
-        {
             name: 'React',
             icon: <SiReact size={25} />,
         },
         {
             name: 'Next',
             icon: <SiNextdotjs size={25} />,
+        },
+        {
+            name: 'JavaScript',
+            icon: <SiJavascript size={25} />,
         },
         {
             name: 'SASS',
@@ -43,6 +35,14 @@ const Skills = () => {
         {
             name: 'Bootstrap',
             icon: <SiBootstrap size={25} />,
+        },
+        {
+            name: 'HTML',
+            icon: <SiHtml5 size={25} />,
+        },
+        {
+            name: 'CSS',
+            icon: <SiCss3 size={25} />,
         },
         {
             name: 'Git',

@@ -8,6 +8,7 @@ import AF_MKT from '../assets/AF-MKT.png';
 import legere from '../assets/legere.png';
 import ecoModa from '../assets/ecoModa.jpg';
 import constructora from '../assets/constructora.jpg';
+import michipedia from '../assets/michipedia.jpg';
 
 const ProjectsList = () => {
     const projects = [
@@ -24,6 +25,13 @@ const ProjectsList = () => {
             image: legere,
             linkSite: 'https://legere-vercel.vercel.app',
             linkRepo: 'https://github.com/TimoteoGambella/Legere',
+        },
+        {
+            name: 'Michipedia',
+            tech: ['React', 'Redux', 'Axios', 'Tailwind'],
+            image: michipedia,
+            linkSite: 'https://michipedia.vercel.app/',
+            linkRepo: 'https://github.com/GastonAvogadro/Michipedia',
         },
         {
             name: 'Need For Speed (desktop)',
