@@ -23,12 +23,14 @@ const Project = ({ name, tech, image, linkSite, linkRepo }) => {
                             </a>
                         </div>
                     )}
-                    <div>
-                        <a href={linkRepo} target="_blank" rel="noopener noreferrer">
-                            <AiOutlineGithub size={30} />
-                            <p>Github</p>
-                        </a>
-                    </div>
+                    {linkRepo && (
+                        <div>
+                            <a href={linkRepo} target="_blank" rel="noopener noreferrer">
+                                <AiOutlineGithub size={30} />
+                                <p>Github</p>
+                            </a>
+                        </div>
+                    )}
                 </div>
                 <ProjectTech tech={tech} />
             </div>

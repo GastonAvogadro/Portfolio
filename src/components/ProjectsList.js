@@ -17,7 +17,6 @@ const ProjectsList = () => {
             tech: ['React', 'SASS'],
             image: constructora,
             linkSite: 'https://torresalonsoconstructora.com/',
-            linkRepo: 'https://github.com/GastonAvogadro/Constructora-Torres-Alonso',
         },
         {
             name: 'Legere',
