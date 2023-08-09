@@ -23,7 +23,7 @@ const ProjectsList = () => {
             tech: ['React', 'SASS', 'Firebase'],
             image: legere,
             linkSite: 'https://legere-vercel.vercel.app',
-            linkRepo: 'https://github.com/TimoteoGambella/Legere',
+            linkRepo: 'https://github.com/GastonAvogadro/Legere',
         },
         {
             name: 'Michipedia',
